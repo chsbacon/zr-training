@@ -1,7 +1,10 @@
 // What is the output of the following code?
 
 int mode = 3;
-if (sqrt(mode) > 1.5f) {
+if (1 && 2) {
+  mode = 5;
+}
+else if (1 & 2) {
   mode = 5;
 }
 

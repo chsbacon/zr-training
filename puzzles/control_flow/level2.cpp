@@ -5,7 +5,7 @@ if (1 and 2) {
   mode = 5;
 }
 else if (1 bitand 2) {
-  mode = 5;
+  mode = 6;
 }
 
 switch(mode) {

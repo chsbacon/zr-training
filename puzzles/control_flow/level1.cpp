@@ -6,14 +6,14 @@ int numDrills = 5;
 int maxDrills = 17;
 bool justDrilled = false;
 
-if(numPickups > maxPickups or justDrilled){
+if (numPickups > maxPickups or justDrilled) {
     DEBUG(("Back to base"));
     if(maxDrills > numDrills){
         DEBUG(("We gucci fam"))
     }
 }
 
-if(numPickups < maxDrills and justDrilled){
+if (numPickups < maxDrills and justDrilled) {
     DEBUG(("Geyser hit"))
 }
 

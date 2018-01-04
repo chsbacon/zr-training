@@ -1,10 +1,10 @@
 // What is the output of the following code?
 
 int mode = 3;
-if (1 && 2) {
+if (1 and 2) {
   mode = 5;
 }
-else if (1 & 2) {
+else if (1 bitand 2) {
   mode = 5;
 }
 

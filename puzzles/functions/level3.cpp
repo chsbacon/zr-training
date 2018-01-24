@@ -1,3 +1,5 @@
+// what does this output?
+
 int multiply(int number)
 {
     if (number >= 1){
@@ -8,6 +10,6 @@ int multiply(int number)
     }
 }
 
-DEBUG(("Result is: %d", multiply(7)));
+DEBUG(("Result is: %d", multiply(6)));
 
 // Bonus: what is the name of this operation?
